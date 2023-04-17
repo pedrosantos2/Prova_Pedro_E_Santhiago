@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+    height: 40%;
+    background-image: linear-gradient(#B2A4FF,#FFB4B4);
+    border-radius: 20px;
+}
+
+h3{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+  border-left: 5px solid #FFDEB4;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+form input[type=email],
+form input[type=password]{
+    width: 50%;
+    height: 34px;
+    margin: 5px;
+   
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.manter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 10px;
+    
+    
+}
+
+button{
+    width: 50%;
+    margin-top: 30px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+
+}
+
+.registar{
+    margin-top: 50px;
+  
+}
+
